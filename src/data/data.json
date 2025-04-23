@@ -14,9 +14,18 @@
   },
   "Gallery": [
     {
-      "title": "Project Title",
+      "title": "Pia de Cozinha Modelo Standard",
       "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "smallImage": "img/portfolio/01-small.jpg",
+      "brief": "Pia de cozinha em material resistente",
+      "description": "Pia de cozinha fabricada com materiais de alta qualidade, ideal para uso residencial e comercial. Design moderno e acabamento premium.",
+      "specifications": [
+        "Dimensões: 120x50cm",
+        "Material: Mármore sintético",
+        "Cor: Branco",
+        "Cuba profunda",
+        "Acabamento polido"
+      ]
     },
     {
       "title": "Project Title",
@@ -57,38 +66,6 @@
       "title": "Project Title",
       "largeImage": "img/portfolio/09-large.jpg",
       "smallImage": "img/portfolio/09-small.jpg"
-    }
-  ],
-  "Services": [
-    {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     }
   ],
   "Testimonials": [
@@ -146,33 +123,31 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "address": "R. Principal, s/n - Santa Paula, Cariacica - ES, 29140-704",
+    "phone": "+55 (27)988863998",
+    "email": "suportevendas@duralevi.com.br",
+    "facebook": "https://www.facebook.com/duralevi",
+    "instagram": "http://instagram.com/duralevioficial/"
   },
-  "Features": [
-    {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+  "Mission": {
+    "title": "Missão, Visão e Valores",
+    "mission": {
+      "title": "Missão",
+      "text": "Produzir e oferecer produtos e serviços com qualidade, capaz de conquistar a plena satisfação do cliente."
     },
-    {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    "vision": {
+      "title": "Visão",
+      "text": "Tornar-se a melhor fábrica de pias e tanques do Brasil com relação aos produtos e ao atendimento ao cliente, com equipes valorizadas e comprometidas."
     },
-    {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    "values": {
+      "title": "Valores",
+      "list": [
+        "Acreditar em Deus sobre todas as coisas.",
+        "Respeito à ética em todas as atitudes.",
+        "Excelência no atendimento aos clientes.",
+        "Busca constante do auto desenvolvimento e inovação.",
+        "Compromisso com os resultados."
+      ]
     }
-  ]
+  }
 }

@@ -84,6 +84,18 @@ export const Gallery = (props) => {
     title: ''
   });
 
+  const [selectedProduct, setSelectedProduct] = useState(null);
+
+  const openModal = (product) => {
+    setSelectedProduct(product);
+    document.body.style.overflow = 'hidden';
+  };
+
+  const closeModal = () => {
+    setSelectedProduct(null);
+    document.body.style.overflow = 'unset';
+  };
+
   const openLightbox = (image, title) => {
     setLightbox({
       isOpen: true,
@@ -106,17 +118,80 @@ export const Gallery = (props) => {
     <div id="portfolio" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Gallery</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p>
+          <h2>Nossos Produtos</h2>
+          <p>Conheça nossa linha completa de produtos</p>
         </div>
 
         {/* Carrossel Superior */}
         {props.data && <GalleryCarousel images={carouselImages} />}
 
-        {/* Grid de Imagens com Lightbox */}
+        {/* Grid de Produtos */}
+        <div className="row">
+          {props.data
+            ? props.data.map((d, i) => (
+                <div key={`${d.title}-${i}`} className="col-sm-6 col-md-4 col-lg-4">
+                  <div className="portfolio-item">
+                    <div className="hover-bg" onClick={() => openModal(d)}>
+                      <img
+                        src={d.smallImage}
+                        className="img-responsive"
+                        alt={d.title}
+                      />
+                      <div className="hover-text">
+                        <h4>{d.title}</h4>
+                        <p>{d.brief || "Clique para mais detalhes"}</p>
+                        <button className="btn-details">Ver Detalhes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))
+            : "Carregando..."}
+        </div>
+
+        {/* Modal do Produto */}
+        {selectedProduct && (
+          <div className="product-modal active" onClick={closeModal}>
+            <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+              <FaTimes className="modal-close" onClick={closeModal} />
+              <div className="row">
+                <div className="col-md-6">
+                  <img
+                    src={selectedProduct.largeImage}
+                    className="img-responsive"
+                    alt={selectedProduct.title}
+                  />
+                </div>
+                <div className="col-md-6 text-left">
+                  <h2>{selectedProduct.title}</h2>
+                  <p className="product-description">
+                    {selectedProduct.description || "Descrição do produto não disponível"}
+                  </p>
+                  <div className="product-details">
+                    <h4>Especificações:</h4>
+                    <ul>
+                      {selectedProduct.specifications?.map((spec, index) => (
+                        <li key={index}>{spec}</li>
+                      )) || (
+                        <li>Especificações não disponíveis</li>
+                      )}
+                    </ul>
+                  </div>
+                  <div className="product-cta">
+                    <a 
+                      href={`https://wa.me/${props.whatsapp}?text=Olá! Gostaria de saber mais sobre o produto: ${selectedProduct.title}`}
+                      className="btn btn-custom btn-lg"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Solicitar Orçamento
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
 
       {/* Lightbox */}
