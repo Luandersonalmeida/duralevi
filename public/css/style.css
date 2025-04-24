@@ -552,14 +552,51 @@ label {
 }
 #contact .contact-item {
   margin: 20px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px; /* Reduzido de 5px para 2px */
 }
-#contact .contact-item span {
-  color: rgba(255, 255, 255, 1);
-  margin-bottom: 10px;
-  display: block;
-}
+
 #contact .contact-item i.fa {
-  margin-right: 10px;
+  font-size: 42px;
+  color: #fff;
+  transition: all 0.3s ease;
+  margin-bottom: 5px; /* Reduzido de 8px para 5px */
+}
+
+#contact .contact-item .contact-title {
+  color: #fff;
+  font-size: 22px; /* Aumentado de 20px para 22px */
+  font-weight: 600;
+  margin-bottom: 3px; /* Reduzido de 5px para 3px */
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+#contact .contact-item span {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px; /* Aumentado de 16px para 18px */
+  display: block;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Ajuste responsivo para telas menores */
+@media (max-width: 768px) {
+  #contact .contact-item i.fa {
+    font-size: 36px;
+  }
+  
+  #contact .contact-item .contact-title {
+    font-size: 20px;
+  }
+  
+  #contact .contact-item span {
+    font-size: 16px;
+  }
 }
 #contact .social {
   border-top: 1px solid rgba(255, 255, 255, 0.15);

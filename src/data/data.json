@@ -14,23 +14,32 @@
   },
   "Gallery": [
     {
-      "title": "Pia de Cozinha Modelo Standard",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg",
+      "title": "Tanque triplo",
+      "largeImage": "img/portfolio/tanqueTriplo-large.jpg",
+      "smallImage": "img/portfolio/tanqueTriplo-small.jpg",
       "brief": "Pia de cozinha em material resistente",
       "description": "Pia de cozinha fabricada com materiais de alta qualidade, ideal para uso residencial e comercial. Design moderno e acabamento premium.",
       "specifications": [
-        "Dimensões: 120x50cm",
-        "Material: Mármore sintético",
-        "Cor: Branco",
+        "Dimensões: 140x50cm, 160x56cm e 180x70cm",
+        "Material: Fibra",
+        "Cores: Branco, Bege, Gelo e Grafite",
         "Cuba profunda",
         "Acabamento polido"
       ]
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "Pia Sintética",
+      "largeImage": "img/portfolio/tanqueTriplo-large.jpg",
+      "smallImage": "img/portfolio/tanqueTriplo-small.jpg",
+      "brief": "Pia de cozinha em material resistente",
+      "description": " (Definir)Pia de cozinha fabricada com materiais de alta qualidade, ideal para uso residencial e comercial. Design moderno e acabamento premium.",
+      "specifications": [
+        "Dimensões: 120x55cm",
+        "Material: Fibra",
+        "Cores: Branco, Bege, Gelo e Grafite",
+        "Cuba profunda",
+        "Acabamento polido"
+      ]
     },
     {
       "title": "Project Title",
