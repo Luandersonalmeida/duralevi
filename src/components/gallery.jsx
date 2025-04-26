@@ -112,7 +112,9 @@ export const Gallery = (props) => {
     });
   };
 
-  const carouselImages = props.data ? props.data.slice(0, 5) : [];
+  // Agora usando a nova estrutura de dados
+  const carouselImages = props.data?.carousel || [];
+  const products = props.data?.products || [];
 
   return (
     <div id="portfolio" className="text-center">
@@ -123,30 +125,28 @@ export const Gallery = (props) => {
         </div>
 
         {/* Carrossel Superior */}
-        {props.data && <GalleryCarousel images={carouselImages} />}
+        {carouselImages.length > 0 && <GalleryCarousel images={carouselImages} />}
 
         {/* Grid de Produtos */}
         <div className="row">
-          {props.data
-            ? props.data.map((d, i) => (
-                <div key={`${d.title}-${i}`} className="col-sm-6 col-md-4 col-lg-4">
-                  <div className="portfolio-item">
-                    <div className="hover-bg" onClick={() => openModal(d)}>
-                      <img
-                        src={d.smallImage}
-                        className="img-responsive"
-                        alt={d.title}
-                      />
-                      <div className="hover-text">
-                        <h4>{d.title}</h4>
-                        <p>{d.brief || "Clique para mais detalhes"}</p>
-                        <button className="btn-details">Ver Detalhes</button>
-                      </div>
-                    </div>
+          {products.map((d, i) => (
+            <div key={`${d.title}-${i}`} className="col-sm-6 col-md-4 col-lg-4">
+              <div className="portfolio-item">
+                <div className="hover-bg" onClick={() => openModal(d)}>
+                  <img
+                    src={d.smallImage}
+                    className="img-responsive"
+                    alt={d.title}
+                  />
+                  <div className="hover-text">
+                    <h4>{d.title}</h4>
+                    <p>{d.brief || "Clique para mais detalhes"}</p>
+                    <button className="btn-details">Ver Detalhes</button>
                   </div>
                 </div>
-              ))
-            : "Carregando..."}
+              </div>
+            </div>
+          ))}
         </div>
 
         {/* Modal do Produto */}

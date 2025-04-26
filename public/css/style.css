@@ -75,10 +75,27 @@ hr {
   padding: 15px;
   transition: all 0.8s;
 }
+
 #menu.navbar-default {
   background-color: #fff;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+/* Ajuste para o conteúdo não ficar escondido atrás do menu */
+body {
+  padding-top: 80px;
+}
+
+/* Ajuste para scroll suave */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 #menu a.navbar-brand {
   font-family: "Raleway", sans-serif;
@@ -307,7 +324,6 @@ header .intro-text {
   line-height: 24px;
   margin: 30px 0;
 }
-/* Remova toda a seção de serviços que começa com: */
 /* Services Section */
 #services {
   padding: 100px 0;
@@ -440,7 +456,6 @@ header .intro-text {
   font-weight: 600;
   color: #666;
 }
-/* Remover toda a seção de estilos do Team que começa em: */
 /* Team Section */
 #team {
   padding: 100px 0;
@@ -552,51 +567,14 @@ label {
 }
 #contact .contact-item {
   margin: 20px 0;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2px; /* Reduzido de 5px para 2px */
 }
-
-#contact .contact-item i.fa {
-  font-size: 42px;
-  color: #fff;
-  transition: all 0.3s ease;
-  margin-bottom: 5px; /* Reduzido de 8px para 5px */
-}
-
-#contact .contact-item .contact-title {
-  color: #fff;
-  font-size: 22px; /* Aumentado de 20px para 22px */
-  font-weight: 600;
-  margin-bottom: 3px; /* Reduzido de 5px para 3px */
-  display: block;
-  width: 100%;
-  text-align: center;
-}
-
 #contact .contact-item span {
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 18px; /* Aumentado de 16px para 18px */
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 10px;
   display: block;
-  text-align: center;
-  line-height: 1.6;
 }
-
-/* Ajuste responsivo para telas menores */
-@media (max-width: 768px) {
-  #contact .contact-item i.fa {
-    font-size: 36px;
-  }
-  
-  #contact .contact-item .contact-title {
-    font-size: 20px;
-  }
-  
-  #contact .contact-item span {
-    font-size: 16px;
-  }
+#contact .contact-item i.fa {
+  margin-right: 10px;
 }
 #contact .social {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
