@@ -15,9 +15,9 @@
   "Gallery": {
     "carousel": [
       {
-        "title": "Imagem Destaque 1",
-        "largeImage": "img/portfolio/tanqueTriploPreto-large.jpg",
-        "smallImage": "img/portfolio/tanqueTriploPreto-large.jpg"
+        "title": "Cuba Sobrepor Amarela",
+        "largeImage": "img/portfolio/cuba/cuba-sobrepor-quadrada-vermelha.jpg",
+        "smallImage": "img/portfolio/cuba/cuba-sobrepor-quadrada-vermelha.jpg"
       },
       {
         "title": "Imagem Destaque 2",
