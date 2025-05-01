@@ -75,10 +75,27 @@ hr {
   padding: 15px;
   transition: all 0.8s;
 }
+
 #menu.navbar-default {
   background-color: #fff;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+/* Ajuste para o conteúdo não ficar escondido atrás do menu */
+body {
+  padding-top: 80px;
+}
+
+/* Ajuste para scroll suave */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 #menu a.navbar-brand {
   font-family: "Raleway", sans-serif;

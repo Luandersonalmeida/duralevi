@@ -1,6 +1,6 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
+    "title": "Bem vindos  duralevi",
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
   },
   "About": {
@@ -12,167 +12,118 @@
      
     ]
   },
-  "Gallery": [
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
-    }
-  ],
-  "Services": [
-    {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    }
-  ],
-  "Testimonials": [
-    {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    }
-  ],
-  "Team": [
-    {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
-    },
-    {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
-    }
-  ],
-  "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+  "Gallery": {
+    "carousel": [
+      {
+        "title": "Cuba Sobrepor Amarela",
+        "largeImage": "img/portfolio/cuba/cuba-sobrepor-quadrada-vermelha.jpg",
+        "smallImage": "img/portfolio/cuba/cuba-sobrepor-quadrada-vermelha.jpg"
+      },
+      {
+        "title": "Imagem Destaque 2",
+        "largeImage": "img/portfolio/02-large.jpg",
+        "smallImage": "img/portfolio/02-small.jpg"
+      }
+    ],
+    "products": [
+      {
+        "title": "Cuba Sobrepor Meiaipe",
+        "largeImage": "img/portfolio/cuba/cuba-sobrepo-redondar-meiaipe-branco.jpg",
+        "smallImage": "img/portfolio/cuba/cuba-sobrepor-redonda-meiaipe-branco.jpg",
+        "brief": "Pia de cozinha em material resistente",
+        "description": "Pia de cozinha fabricada com materiais de alta qualidade, ideal para uso residencial e comercial. Design moderno e acabamento premium.",
+        "specifications": [
+          "Dimensões: 140x50cm, 160x56cm e 180x70cm",
+          "Material: Fibra",
+          "Cores: Branco, Bege, Gelo e Grafite",
+          "Cuba profunda",
+          "Acabamento polido"
+        ]
+      },
+      {
+        "title": "Cuba Sobrepor Bacutia",
+        "largeImage": "img/portfolio/cuba/cuba-sobrepor-quadrada-branca.jpg",
+        "smallImage": "img/portfolio/cuba/cuba-sobrepor-quadrada-branca.jpg",
+        "brief": "Pia de cozinha em material resistente",
+        "description": "Pia de cozinha fabricada com materiais de alta qualidade, ideal para uso residencial e comercial. Design moderno e acabamento premium.",
+        "specifications": [
+          "Dimensões: 140x50cm, 160x56cm e 180x70cm",
+          "Material: Fibra",
+          "Cores: Branco, Bege, Gelo e Grafite",
+          "Cuba profunda",
+          "Acabamento polido"
+        ]
+      },
+      {
+        "title": "Cuba Sobrepor Setiba",
+        "largeImage": "img/portfolio/cuba/cuba-sobrepor-quadrada-vermelha.jpg",
+        "smallImage": "img/portfolio/cuba/cuba-sobrepor-quadrada-vermelha.jpg",
+        "brief": "Pia de cozinha em material resistente",
+        "description": "Pia de cozinha fabricada com materiais de alta qualidade, ideal para uso residencial e comercial. Design moderno e acabamento premium.",
+        "specifications": [
+          "Dimensões: 140x50cm, 160x56cm e 180x70cm",
+          "Material: Fibra",
+          "Cores: Branco, Bege, Gelo e Grafite",
+          "Cuba profunda",
+          "Acabamento polido"
+        ]
+      },
+      {
+        "title": "Tanque Triplo",
+        "largeImage": "img/portfolio/tanques/tanque-triplo-preto.jpg",
+        "smallImage": "img/portfolio/tanques/tanque-triplo-preto.jpg",
+        "brief": "Pia de cozinha em material resistente",
+        "description": "Pia de cozinha fabricada com materiais de alta qualidade, ideal para uso residencial e comercial. Design moderno e acabamento premium.",
+        "specifications": [
+          "Dimensões: 140x50cm, 160x56cm e 180x70cm",
+          "Material: Fibra",
+          "Cores: Branco, Bege, Gelo e Grafite",
+          "Cuba profunda",
+          "Acabamento polido"
+        ]
+      },
+      {
+        "title": "Tanque Simples Parafusado",
+        "largeImage": "img/portfolio/tanques/tanque-simples-parafusado-branco.jpg",
+        "smallImage": "img/portfolio/tanques/tanque-simples-parafusado-branco.jpg",
+        "brief": "Pia de cozinha em material resistente",
+        "description": "Pia de cozinha fabricada com materiais de alta qualidade, ideal para uso residencial e comercial. Design moderno e acabamento premium.",
+        "specifications": [
+          "Dimensões: 140x50cm, 160x56cm e 180x70cm",
+          "Material: Fibra",
+          "Cores: Branco, Bege, Gelo e Grafite",
+          "Cuba profunda",
+          "Acabamento polido"
+        ]
+      }
+    ]
   },
-  "Features": [
-    {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+  "Mission": {
+    "title": "Missão, Visão e Valores",
+    "mission": {
+      "title": "Missão",
+      "text": "Produzir e oferecer produtos e serviços com qualidade, capaz de conquistar a plena satisfação do cliente."
     },
-    {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    "vision": {
+      "title": "Visão",
+      "text": "Tornar-se a melhor fábrica de pias e tanques do Brasil com relação aos produtos e ao atendimento ao cliente, com equipes valorizadas e comprometidas."
     },
-    {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    "values": {
+      "title": "Valores",
+      "list": [
+        "Acreditar em Deus sobre todas as coisas.",
+        "Respeito à ética em todas as atitudes.",
+        "Excelência no atendimento aos clientes.",
+        "Busca constante do auto desenvolvimento e inovação.",
+        "Compromisso com os resultados."
+      ]
     }
-  ]
+  },
+  "Contact": {
+    "address": "R. Principal, s/n - Santa Paula, Cariacica - ES, 29140-704",
+    "phone": "+55 (27)988863998",
+    "email": "suportevendas@duralevi.com.br",
+    "facebook": "https://www.facebook.com/duralevi",
+    "instagram": "http://instagram.com/duralevioficial/"
+  }
 }
